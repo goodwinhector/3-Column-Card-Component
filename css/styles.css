@@ -1,0 +1,84 @@
+body {
+  background-color: white;
+  position: relative;
+  color: white;
+}
+
+img {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  position: absolute;
+  top: 175px;
+  left: 30px;
+  line-height: 2;
+  padding-right: 50px;
+  text-align: left;
+
+}
+
+.main {
+  position: absolute;
+  left: 350px;
+  top: 100px;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  height: 500px;
+  width: 275px;
+  position: absolute;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  height: 500px;
+  width: 275px;
+  position: absolute;
+  left: 275px;
+}
+
+.lux {
+  background-color: hsl(179, 100%, 13%);
+  height: 500px;
+  width: 275px;
+  position: absolute;
+  left: 550px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.button {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+  position:absolute;
+  bottom: 30px;
+  left: 30px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.attribution {
+  color: black;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  padding-top: 650px;
+}
